@@ -1,0 +1,99 @@
+:root {
+  background-color: #bce8f1;
+  --primarycolor: #fdfdfd;
+  --secondarycolor: #046b99;
+  --thirdarycolor: #d2b486;
+}
+#root {
+  background-color: #bce8f1;
+}
+
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 40vmin;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+.jumbotron {
+  margin-top: 2rem;
+  padding-top: 1rem;
+  background-color: var(--secondarycolor);
+  color: white;
+  padding-bottom: 3rem;
+}
+
+.list-group {
+  margin-top: 13px;
+}
+.list-group-item.active {
+  background-color: #fdb81e;
+  color: black;
+  border: none;
+}
+#informationText {
+  height: 35rem;
+}
+
+#landingPage {
+  text-align: center;
+}
+.ql-editor {
+  min-height: 10vw !important;
+  max-height: 30vw;
+  overflow: hidden;
+  /* font-size:  */
+  /* overflow-y: scroll; */
+}
+.ql-editor spanblock {
+  background-color: #f8f8f8;
+  border: 1px solid #ccc;
+  line-height: 19px;
+  padding: 6px 10px;
+  border-radius: 3px;
+  margin: 15px 0;
+}
+.ql-picker-label::before {
+}
+.ql-picker-label {
+}
+pre {
+  background-color: #fcfcfc;
+  padding: 5px;
+  border: 1px solid #b2b2b2;
+  color: #363030;
+}
+.ql-editor:after {
+  border: 1px solid #80bdff !important;
+  box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.25) !important;
+}
+.ql-editor {
+  padding: 0%;
+  margin: 0%;
+}
+#informationItem.jumbotron p {
+  margin: 0%;
+}
+#bank {
+  font-size: 15px;
+  line-height: 200%;
+  margin: 0%;
+  padding: 1%;
+}

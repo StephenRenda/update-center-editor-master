@@ -1,0 +1,33 @@
+{
+  "name": "update-center-editor",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "axios": "^0.18.1",
+    "bootstrap": "^4.3.1",
+    "clone-deep": "^4.0.1",
+    "dotenv": "^6.2.0",
+    "react": "^16.7.0",
+    "react-dom": "^16.7.0",
+    "react-quill": "^1.3.3",
+    "react-scripts": "^3.0.1",
+    "reactstrap": "^7.1.0",
+    "uuid": "^3.3.2"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject",
+    "startServer": "(npm run build) && (node ./server.js)"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not ie <= 11",
+    "not op_mini all"
+  ]
+}
